@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ANOT-PC</Machine>
+    <WindowsUser>AnılOsman</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>dd2ec83b-7556-4241-8f30-9974d0300151</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\anılosman\documents\visual studio 2013\Projects\webCamRecorder\webCamRecorder\obj\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\anılosman\documents\visual studio 2013\Projects\webCamRecorder\webCamRecorder\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\anılosman\documents\visual studio 2013\Projects\webCamRecorder\webCamRecorder\bin\Release\webCamRecorder.exe">
+      <PackagePath>webCamRecorder.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\anılosman\documents\visual studio 2013\Projects\webCamRecorder\webCamRecorder\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\anılosman\documents\visual studio 2013\Projects\webCamRecorder\webCamRecorder\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\anılosman\documents\visual studio 2013\Projects\webCamRecorder\webCamRecorder\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\anılosman\documents\visual studio 2013\Projects\webCamRecorder\webCamRecorder\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\anılosman\documents\visual studio 2013\Projects\webCamRecorder\webCamRecorder\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\anılosman\documents\visual studio 2013\Projects\webCamRecorder\webCamRecorder\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\anılosman\documents\visual studio 2013\Projects\webCamRecorder\webCamRecorder\bin\Release\webCamRecorder.xr.xml">
+      <PackagePath>webCamRecorder.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\anılosman\documents\visual studio 2013\Projects\webCamRecorder\webCamRecorder\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

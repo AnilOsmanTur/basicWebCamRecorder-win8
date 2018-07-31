@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ANOT-PC</Machine>
+    <WindowsUser>AnılOsman</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>dd2ec83b-7556-4241-8f30-9974d0300151</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\anılosman\documents\visual studio 2013\Projects\webCamRecorder\webCamRecorder\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>3F6F3DB5AB6E3EF98F72ADC78F4432DFBB068D2D89D1B0FE3EC7204EA69DCE01</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>dd2ec83b-7556-4241-8f30-9974d0300151_1.0.0.0_neutral__2x51r0wg9dxk6</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>dd2ec83b-7556-4241-8f30-9974d0300151_2x51r0wg9dxk6!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>dd2ec83b-7556-4241-8f30-9974d0300151</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=AnılOsman</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\anılosman\documents\visual studio 2013\Projects\webCamRecorder\webCamRecorder\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-07-31T17:18:31.936</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\anılosman\documents\visual studio 2013\Projects\webCamRecorder\webCamRecorder\bin\Debug\webCamRecorder.exe">
+      <PackagePath>webCamRecorder.exe</PackagePath>
+      <Modified>2018-07-31T17:47:38.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\anılosman\documents\visual studio 2013\Projects\webCamRecorder\webCamRecorder\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\anılosman\documents\visual studio 2013\Projects\webCamRecorder\webCamRecorder\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\anılosman\documents\visual studio 2013\Projects\webCamRecorder\webCamRecorder\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\anılosman\documents\visual studio 2013\Projects\webCamRecorder\webCamRecorder\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\anılosman\documents\visual studio 2013\Projects\webCamRecorder\webCamRecorder\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2018-07-31T16:56:08.042</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\anılosman\documents\visual studio 2013\Projects\webCamRecorder\webCamRecorder\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2018-07-31T17:26:48.820</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\anılosman\documents\visual studio 2013\Projects\webCamRecorder\webCamRecorder\bin\Debug\webCamRecorder.xr.xml">
+      <PackagePath>webCamRecorder.xr.xml</PackagePath>
+      <Modified>2018-07-31T17:26:48.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\anılosman\documents\visual studio 2013\Projects\webCamRecorder\webCamRecorder\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2018-07-31T17:18:31.665</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

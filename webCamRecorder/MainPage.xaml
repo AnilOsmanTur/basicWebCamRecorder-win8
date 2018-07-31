@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="webCamRecorder.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:webCamRecorder"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RequestedTheme="Light" >
+        <Canvas x:Name="previewCanvas" HorizontalAlignment="Left" Margin="118,276,0,0" VerticalAlignment="Top" Width="400" Height="300" Background="Purple">
+            <CaptureElement x:Name="previewElement" Width="400" Height="300"/>
+        </Canvas>
+        <Button x:Name="startDeviceBtn" Content="Start Device" Click="startDeviceBtn_Click" IsEnabled="True" HorizontalAlignment="Left" Margin="242,176,0,0" VerticalAlignment="Top" Height="44" Width="179"/>
+        <Button x:Name="startPreviewBtn" Content="Start Preview" Click="startPreviewBtn_Click" IsEnabled="True" HorizontalAlignment="Left" Margin="509,176,0,0" VerticalAlignment="Top" Height="44" Width="179"/>
+        <Button x:Name="recordBtn" Content="Start Recording" Click="recordBtn_Click" IsEnabled="False" HorizontalAlignment="Left" Margin="783,176,0,0" VerticalAlignment="Top" Height="44" Width="179" RequestedTheme="Light"/>
+        <Canvas x:Name="recordedCanvas"  HorizontalAlignment="Left" Margin="676,276,0,0" VerticalAlignment="Top" Width="400" Height="300" Background="Purple">
+            <MediaElement x:Name="recordedElement" Width="400" Height="300"/>
+        </Canvas>
+        <TextBlock x:Name="frameDescriptionText" Text="Resolutioon : 123x123" HorizontalAlignment="Left" Margin="157,600,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="261" FontSize="12"/>
+        <TextBlock x:Name="statusText" Text="Status" HorizontalAlignment="Left" Margin="245,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="261" FontSize="12"/>
+
+    </Grid>
+</Page>
